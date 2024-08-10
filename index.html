@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d151ec99fa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Barber Shop</title>
+  </head>
+  <body>
+    <!--NavBar-->
+    <div class="menu-container">
+      <div class="menu-btn">☰<i class="fa-solid fa-scissors"></i> Menú</div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#Main">Inicio</a></li>
+          <li><a href="#Services">Servicios</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Nav2 icono haburguesa -->
+    <nav class="navbar">
+      <div class="logo"><i class="fa-solid fa-scissors"></i>BlackBird</div>
+      <ul class="nav-links">
+        <li><a href="#Main">Inicio</a></li>
+        <li>
+          <a href="#Services">Servicios</a>
+          <ul class="dropdown">
+            <li><a href="#">Servicio 1</a></li>
+            <li><a href="#">Servicio 2</a></li>
+            <li><a href="#">Servicio 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#Contacto">Contacto</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <script src="./assets/script/script.js"></script>
+
+    <div id="Main" class="container">
+      <!--Main-->
+      <main class="main">
+        <h1 class="nombre-barberia">Barberia BlackBird</h1>
+        <!--Galeria-->
+        <div class="galeria">
+          <h2 class="titulo-galeria">
+            <i class="fa-solid fa-camera"></i>Resultados de trabajos
+          </h2>
+          <section class="gallery">
+            <div class="gallery-item">
+              <img src="./assets/image/cortes1.jpg" alt="Imagen 1" />
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/image/cortes2.jpg" alt="Imagen 2" />
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/image/cortes3.jpg" alt="Imagen 3" />
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/image/cortes4.jpg" alt="Imagen 4" />
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/image/cortes5.jpg" alt="Imagen 5" />
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/image/cortes6.jpg" alt="Imagen 6" />
+            </div>
+          </section>
+        </div>
+
+        <!--Servicios-->
+        <h1 id="#Services" class="barber">
+          <img src="./assets/image/iconos/beard.png" alt="beard-logo" />
+          Servicios
+        </h1>
+        <section class="products">
+          <div class="card">
+            <div class="productCard all decor">
+              <img src="./assets/image/servicio2.jpg" alt="haircut" />
+              <h3>Corte de pelo</h3>
+              <div class="btn">Ver más</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="productCard all decor">
+              <img src="./assets/image/servicio1.jpg" alt="beard" />
+              <h3>Servicio de barberia</h3>
+              <div class="btn">Ver más</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="productCard all decor">
+              <img src="./assets/image/servicio3.jpg" alt="beard" />
+              <h3>Paños Calientes</h3>
+              <div class="btn">Ver más</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="productCard all decor">
+              <img src="./assets/image/servicio4.jpg" alt="beard" />
+              <h3>Mascarillas faciales</h3>
+              <div class="btn">Ver más</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="productCard all decor">
+              <img src="./assets/image/servicio5.jpg" alt="beard" />
+              <h3>Decolorado de Pelo</h3>
+              <div class="btn">Ver más</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="productCard all decor">
+              <img src="./assets/image/servicio6.jpg" alt="beard" />
+              <h3>Servicio Completo</h3>
+              <div class="btn">Ver más</div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!--Footer-->
+      <footer id="Contacto" class="footer">
+        <div class="contact-info">
+          <h3><i class="fa-solid fa-address-book"></i>Contáctanos:</h3>
+          <p><i class="fa-solid fa-map-location-dot"></i>Providencia, Chile</p>
+          <p><i class="fa-solid fa-phone"></i>+569 1234 5678</p>
+          <p><i class="fa-solid fa-envelope"></i>contacto@gmail.com</p>
+        </div>
+        <div class="social-media">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank"
+                ><i class="fa-brands fa-linkedin"></i>LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://www.twitter.com" target="_blank"
+                ><i class="fa-brands fa-square-x-twitter"></i>Twitter</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com" target="_blank"
+                ><i class="fa-brands fa-instagram"></i>Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://www.facebook.com" target="_blank"
+                ><i class="fa-brands fa-square-facebook"></i>Facebook</a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
